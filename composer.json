@@ -1,0 +1,20 @@
+{
+  "name": "neviksasha/json-field-for-voyager",
+  "description": "Adding JSON field to Voyager Admin Panel for Laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "neviksasha",
+      "email": "neviksasha@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/neviksasha/json-field-for-voyager",
+  "require": {
+    "tcg/voyager": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "JsonVoyagerFormField\\": "src/"
+    }
+  }
+}
